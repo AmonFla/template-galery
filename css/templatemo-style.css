@@ -356,6 +356,7 @@ h5 {
   line-height: 34px;
 }
 
+
 .social-icons a i {
   line-height: 34px;
 }
@@ -370,8 +371,49 @@ h5 {
   margin: 0 4px;
 }
 
+.social-icons-2 a {
+  color: #fff;
+  width: 46px;
+  height: 46px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 17px;
+  border-radius: 17px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 46px;
+}
+
+.social-icons-2 span {
+  color: #fff;
+  height: 46px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 46px;
+  padding: 10px;
+}
+
+
+.social-icons-2 a i {
+  line-height: 46px;
+}
+
+.social-icons-2 a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.social-icons-2 li {
+  margin: 0 0 10px;
+}
+
 @media screen and (max-width: 768px) {
   .social-icons {
+    float: none !important;
+    text-align: center;
+    display: block;
+  }
+
+  .social-icons-2 {
     float: none !important;
     text-align: center;
     display: block;
